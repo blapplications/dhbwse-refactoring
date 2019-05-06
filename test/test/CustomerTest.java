@@ -23,7 +23,7 @@ class CustomerTest {
     }
 
     @Test
-    void testStatementAssert() {
+    public void testStatementAssert() {
         String expected = "main.Rental Record for Joe\n" +
                 "\tTitle\t\tDays\tAmount\n" +
                 "\tmovie1\t\t10\t30.0\n" +
