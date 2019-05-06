@@ -4,7 +4,7 @@ public class ChildrensPrice implements Price {
 
 
     public int getPriceCode() {
-        return Movie.CHILDRENS;
+        return Movie.CHILDREN;
     }
 
     public double getCharge(int daysRented) {
