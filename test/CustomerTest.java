@@ -1,3 +1,6 @@
+import main.Customer;
+import main.Movie;
+import main.Rental;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -19,7 +22,7 @@ class CustomerTest {
 
     @Test
     void testStatement() {
-        String expected = "Rental Record for Joe\n" +
+        String expected = "main.Rental Record for Joe\n" +
                 "\tTitle\t\tDays\tAmount\n" +
                 "\tmovie1\t\t10\t30.0\n" +
                 "\tmovie2\t\t5\t3.0\n" +
