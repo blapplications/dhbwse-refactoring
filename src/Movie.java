@@ -31,7 +31,7 @@ public class Movie {
         }
     }
 
-    public String getTitle (){
+    public String getTitle() {
         return title;
     }
 
@@ -39,7 +39,7 @@ public class Movie {
         return price.getCharge(daysRented);
     }
 
-    public int getFrequentRenterPoints( int daysRented) {
+    public int getFrequentRenterPoints(int daysRented) {
         return price.getFrequentRenterPoints(daysRented);
 
     }
