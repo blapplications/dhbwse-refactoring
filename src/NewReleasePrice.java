@@ -12,4 +12,3 @@ public class NewReleasePrice implements Price {
     }
 
 }
-
