@@ -11,7 +11,7 @@ class CustomerTest {
     private Customer c1;
 
     @BeforeEach
-    public void setup() {
+    public void setUp() {
         c1 = new Customer("Joe");
 
         Movie m1 = new Movie("movie1", 1);
@@ -23,7 +23,7 @@ class CustomerTest {
     }
 
     @Test
-    void testStatement() {
+    void testStatementAssert() {
         String expected = "main.Rental Record for Joe\n" +
                 "\tTitle\t\tDays\tAmount\n" +
                 "\tmovie1\t\t10\t30.0\n" +
