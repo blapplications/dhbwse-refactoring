@@ -1,6 +1,6 @@
 package main;
 
-public class ChildrensPrice implements Price {
+public class ChildrenPrice implements Price {
 
     public double getCharge(int daysRented) {
         if (daysRented > 3) return (daysRented - 3) * 1.5;
