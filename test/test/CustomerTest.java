@@ -1,3 +1,5 @@
+package test;
+
 import main.Customer;
 import main.Movie;
 import main.Rental;
