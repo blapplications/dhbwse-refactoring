@@ -8,7 +8,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class CustomerTest {
-    Customer c1;
+    private Customer c1;
 
     @BeforeEach
     public void setup() {
